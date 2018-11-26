@@ -127,7 +127,7 @@ class ReporteCajeraController extends Controller
 				);
 				return response()->json($response);
 			}
-			return response()->json(['status' => 'success', 'msg' => 'Cajera Seleccionada']);
+			return response()->json(['status' => 'success', 'msg' => 'Cajera Seleccionada.']);
 		}
 	}
 }
